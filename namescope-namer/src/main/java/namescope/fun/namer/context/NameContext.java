@@ -14,4 +14,6 @@ public class NameContext {
 
     private NameClaim nameClaim;
 
+    private NameProposal nameProposal;
+
 }

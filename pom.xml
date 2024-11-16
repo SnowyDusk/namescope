@@ -16,6 +16,7 @@
     <modules>
         <module>namescope-web</module>
         <module>namescope-namer</module>
+        <module>namescope-engine</module>
     </modules>
 
     <properties>

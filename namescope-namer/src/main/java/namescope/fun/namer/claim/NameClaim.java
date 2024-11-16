@@ -34,7 +34,7 @@ public class NameClaim {
     private String systemAnnex;
 
     @JsonProperty
-    private String userPromptsTitle;
+    private String userPromptTitle;
 
     @JsonProperty
     private List<String> userPrompts;
@@ -69,7 +69,7 @@ public class NameClaim {
 
     public String getUserPrompt() {
         StringBuilder sb = new StringBuilder();
-        sb.append(userPromptsTitle);
+        sb.append(userPromptTitle);
 
         if (!CollectionUtils.isEmpty(userPrompts)) {
             sb.append("\n\n以下是具体说明:\n");
