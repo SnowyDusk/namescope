@@ -3,6 +3,7 @@ package namescope.fun.namer.context;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import namescope.fun.namer.claim.NameClaim;
 
 @Data
 @AllArgsConstructor
@@ -10,5 +11,7 @@ import lombok.NoArgsConstructor;
 public class NameContext {
 
     private NameParam nameParam;
+
+    private NameClaim nameClaim;
 
 }

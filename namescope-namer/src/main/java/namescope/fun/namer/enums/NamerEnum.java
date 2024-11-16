@@ -7,11 +7,13 @@ import lombok.Getter;
 @Getter
 public enum NamerEnum {
 
-    DEFAULT(0, "SimpleNamer", "默认工作流");
+    DEFAULT(0, "simpleNamer", "DefaultClaim", "默认工作流");
 
     private final Integer NamerId;
 
     private final String NamerType;
+
+    private final String claimName;
 
     private final String desc;
 }
