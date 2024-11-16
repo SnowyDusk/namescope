@@ -12,6 +12,7 @@ public class NameController {
 
     @PostMapping("/propose")
     public NameResponse<NameProposalVO> propose(@RequestBody NameRequest nameRequest) {
+
         return NameResponse.success();
     }
 
