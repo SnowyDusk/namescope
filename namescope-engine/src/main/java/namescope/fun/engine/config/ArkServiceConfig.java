@@ -24,7 +24,7 @@ public class ArkServiceConfig {
         log.info("[ArkService Config] apiKey: {}, baseUrl: {}", apiKey, baseUrl);
         return ArkService.builder()
                 .apiKey(apiKey)
-                .baseUrl(baseUrl)
+//                .baseUrl(baseUrl)
                 .timeout(Duration.ofSeconds(120))
                 .connectTimeout(Duration.ofSeconds(30))
                 .retryTimes(1)
